@@ -1,0 +1,3 @@
+remover o menu quando aperta apenas a tecla ALT no firefox
+about:config 
+  ui.key.menuAccessKeyFocuses
