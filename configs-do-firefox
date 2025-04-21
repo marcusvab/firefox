@@ -1,3 +1,8 @@
 remover o menu quando aperta apenas a tecla ALT no firefox
-about:config 
+  about:config 
   ui.key.menuAccessKeyFocuses
+
+remover o fade ao dar tela cheia num video
+    about:config
+    full-screen-api.transition-duration.enter: "0 0"
+    full-screen-api.transition-duration.leave: "0 0"
