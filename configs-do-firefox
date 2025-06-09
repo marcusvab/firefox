@@ -10,3 +10,7 @@ remover o fade ao dar tela cheia num video
 DESATIVAR MENU AO APERTAR "ALT" NO FIREFOX 
 about:config
 ui.key.menuAccessKeyFocuses (ALTERAR PARA FALSE)
+
+
+gfx.webrender.all para true
+ui.prefersReducedMotion para 1
