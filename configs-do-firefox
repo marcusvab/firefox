@@ -14,3 +14,8 @@ ui.key.menuAccessKeyFocuses (ALTERAR PARA FALSE)
 
 gfx.webrender.all para true
 ui.prefersReducedMotion para 1
+
+
+layers.acceleration.force-enabled (Forçar aceleração de hardware).
+
+gfx.webrender.all (Ativa o WebRender, que usa a GPU para renderizar gráficos).
