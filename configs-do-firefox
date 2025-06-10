@@ -19,3 +19,6 @@ ui.prefersReducedMotion para 1
 layers.acceleration.force-enabled (Forçar aceleração de hardware).
 
 gfx.webrender.all (Ativa o WebRender, que usa a GPU para renderizar gráficos).
+
+
+media.windows-media-foundation.enabled para true
