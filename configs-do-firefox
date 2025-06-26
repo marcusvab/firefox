@@ -22,3 +22,18 @@ gfx.webrender.all (Ativa o WebRender, que usa a GPU para renderizar gráficos).
 
 
 media.windows-media-foundation.enabled para true
+
+
+DEU CERTO COM ESSES ABAIXO:
+https://www.youtube.com/account_playback ---> MUDAR PARA AV1
+media.ffmpeg.vaapi.enabled → true (para Linux com VA-API)
+media.hardware-video-decoding.enabled → true
+media.ffvpx.enabled → false (opcional, força uso do sistema/FFmpeg em vez da lib integrada)
+media.gpu-process-decoder → true
+media.navigator.mediadatadecoder_enabled → true
+Chave: media.av1.enabled → true (já é o padrão)
+Chave: media.av1.use-dav1d → true (melhor desempenho com decoder dav1d)
+Chave: media.av1.use-svt → false (evita codificação, irrelevante pro YouTube)
+Opcional: Acesse https://www.youtube.com/advanced_settings e ative “Always prefer AV1” (ou acesse https://youtube.com/account_playback)
+
+💡 Verifique se está usando AV1: clique com o botão direito → "Estatísticas para nerds" → verá algo como av01.0.05M.08 (video).
