@@ -43,3 +43,4 @@ YOUTUBE:
 
 media.ffvpx.enabled DESABILITAR
 media.wmf.dxva.d3d11.enabled DESABILITAR
+media.vp9.enabled HABILITAR
