@@ -41,4 +41,5 @@ Opcional: Acesse https://www.youtube.com/advanced_settings e ative “Always pre
 
 YOUTUBE:
 
-DESABILITAR media.ffvpx.enabled
+media.ffvpx.enabled DESABILITAR
+media.wmf.dxva.d3d11.enabled DESABILITAR
