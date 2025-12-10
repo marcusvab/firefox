@@ -4,7 +4,7 @@ browser.tabs.dragDrop.pinInteractionCue.delayMS 5000000
 
 remover o menu quando aperta apenas a tecla ALT no firefox
   about:config 
-  ui.key.menuAccessKeyFocuses
+  ui.key.menuAccessKeyFocuses false
 
 remover o fade ao dar tela cheia num video
     about:config
@@ -20,15 +20,15 @@ ui.key.menuAccessKeyFocuses (ALTERAR PARA FALSE)
 
 
 gfx.webrender.all para true
-ui.prefersReducedMotion para 1
+ui.prefersReducedMotion para true
 
 
-layers.acceleration.force-enabled (Forçar aceleração de hardware).
+layers.acceleration.force-enabled para true (Forçar aceleração de hardware).
 
-gfx.webrender.all (Ativa o WebRender, que usa a GPU para renderizar gráficos).
+gfx.webrender.all para true (Ativa o WebRender, que usa a GPU para renderizar gráficos).
 
 
-media.windows-media-foundation.enabled para true
+media.windows-media-foundation.enabled para true (ESTAVA COMO "BOOLEANO" ENQUANTO FUNCIONAVA BEM - TESTAR DEPOIS)
 
 
 DEU CERTO COM ESSES ABAIXO:
@@ -40,7 +40,7 @@ media.gpu-process-decoder → true
 media.navigator.mediadatadecoder_enabled → true
 Chave: media.av1.enabled → true (já é o padrão)
 Chave: media.av1.use-dav1d → true (melhor desempenho com decoder dav1d)
-Chave: media.av1.use-svt → false (evita codificação, irrelevante pro YouTube)
+Chave: media.av1.use-svt → false (evita codificação, irrelevante pro YouTube) ------> ESTAVA TRUE ENQUANTO ESTAVA FUNCIONANDO BEM - TESTAR PARA VER SE COLOCA EM FALSE MESMO!
 Opcional: Acesse https://www.youtube.com/advanced_settings e ative “Always prefer AV1” (ou acesse https://youtube.com/account_playback)
 
 💡 Verifique se está usando AV1: clique com o botão direito → "Estatísticas para nerds" → verá algo como av01.0.05M.08 (video).
@@ -49,5 +49,5 @@ Opcional: Acesse https://www.youtube.com/advanced_settings e ative “Always pre
 YOUTUBE:
 
 media.ffvpx.enabled DESABILITAR
-media.wmf.dxva.d3d11.enabled DESABILITAR
+media.wmf.dxva.d3d11.enabled DESABILITAR ---> ESTAVA TRUE ENQUANTO ESTAVA FUNCIONANDO BEM - TESTAR PARA VER SE COLOCA EM FALSE MESMO!
 media.vp9.enabled HABILITAR
