@@ -3,7 +3,7 @@ https://www.reddit.com/r/firefox/comments/18he1f1/is_there_a_way_to_stopblock_or
 
 about:config:
 accessibility.blockautorefresh para true (em teste)
-www.facebook.com##+js(aeld, /blur|focus|afterblur|mousemove|visibilitychange/) -----> EM TESTE
+www.facebook.com##+js(aeld, /blur|focus|afterblur|mousemove|visibilitychange/) -----> funciona em conjunto com accessibility.blockautorefresh em TRUE
 TESTAR:
 facebook.com##+js(prevent-refresh)
 ###browser.tabs.unloadOnLowMemor -> alterar para false ---> tentei mas não funcionou!!!
