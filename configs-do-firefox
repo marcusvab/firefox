@@ -1,5 +1,12 @@
 DESABILITA RELER ABA ANTIGA (PARA ECONOMIA DE MEMÓRIA)
-browser.tabs.unloadOnLowMemor -> alterar para false
+https://www.reddit.com/r/firefox/comments/18he1f1/is_there_a_way_to_stopblock_or_delay_auto_refresh/
+
+about:config:
+accessibility.blockautorefresh para true (em teste)
+www.facebook.com##+js(aeld, /blur|focus|afterblur|mousemove|visibilitychange/) -----> EM TESTE
+TESTAR:
+facebook.com##+js(prevent-refresh)
+###browser.tabs.unloadOnLowMemor -> alterar para false ---> tentei mas não funcionou!!!
 
 
 DESABILITAR O FIXAR ABAS AO ARRASTÁ-LAS PARA O CANTO ESQUERDO SUPERIOR:
