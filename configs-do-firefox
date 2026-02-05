@@ -1,3 +1,6 @@
+TIRA O DELAY PARA ABRIR ARQUIVO BAIXADO
+security.dialog_enable_delay ---> 0
+
 DESABILITA RELER ABA ANTIGA (PARA ECONOMIA DE MEMÓRIA)
 https://www.reddit.com/r/firefox/comments/18he1f1/is_there_a_way_to_stopblock_or_delay_auto_refresh/
 
